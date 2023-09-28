@@ -1,0 +1,471 @@
+@charset "UTF-8";
+
+
+html, body {
+    height: 100%;
+    background-color: #eceff1;
+    transition: 0.3s;
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}/*Cardapio.html */
+
+
+/* Main */
+
+.container-normal-section{
+	margin-right:10px;
+	margin-left:15px;
+	font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+         
+           
+}
+
+.main-section-cardapio{
+	margin-top:10px;
+	  display: flex;
+       flex-wrap: wrap;
+       gap: 20px;
+}
+
+/*titulo cardápio*/
+.section-tittle-cardapio{
+	font-size:40px;
+	font-family: 'Parisienne', cursive;
+	text-align: center;
+}
+
+/*Produtos*/
+.products-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap:25px;
+}
+
+
+/*p*/
+.texto-cardapio{
+	font-size:12px;
+	font-family: 'Mooli', sans-serif;
+	
+}
+
+/*Cards de produtos */
+.movie-product, .movie-product2, .movie-product3, .movie-product4, .movie-product5,.movie-product6,.movie-product7, .movie-product8 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  flex: 1;
+  height:300px;
+  min-width: 150px;
+  max-width: 400px;
+  text-align: center;
+}
+
+.movie-product{
+	 background-color: #b0f6f2;
+}
+
+.movie-product2{
+	 background-color:#84b6f4;
+}
+
+.movie-product3{
+	 background-color:#9bfae0;
+}
+
+.movie-product4{
+	 background-color:#edb8fa;
+}
+
+.movie-product5{
+	 background-color:#bae0f5;
+}
+.movie-product6{
+	 background-color:#feeeb8;
+}
+.movie-product7{
+	 background-color:#ff9688;
+}
+.movie-product8{
+	 background-color:#ff8097;
+}
+
+.curiosidades,.curiosidades2,.curiosidades3,.curiosidades4, .curiosidades5, .curiosidades6, .curiosidades7, .curiosidades8 {
+	display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #d3bcf6;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  flex: 1;
+  height:180px;
+  min-width: 150px;
+  max-width: 400px;
+  text-align: center;
+ margin-left:15px;
+}
+
+
+.curiosidades5, .curiosidades6, .curiosidades7, .curiosidades8 
+
+{
+	 height:150px;
+	 width:190px;
+}
+
+
+.curiosidades, .curiosidades5{
+	background-color: #d3bcf6;
+}
+
+.curiosidades2, .curiosidades6{
+	background-color: #b0f6f2;
+}
+
+.curiosidades3{
+	background-color: #fdcae1;
+}
+
+.curiosidades4{
+	background-color: #d8f8e1;
+	background-color:#edb8fa;
+}
+
+.curiosidades8{
+	
+	background-color:#edb8fa;
+}
+
+.frases, .frases2, .frases3, .frases4 {
+	display: flex;
+  flex-direction: column;
+  align-items: center;
+   border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  flex: 1;
+  height:180px;
+  min-width: 150px;
+  max-width: 400px;
+  text-align: center;
+  margin-left: 15px;
+}
+
+.frases{
+	 background-color:#ff9688;
+}
+
+.frases2
+{
+	background-color:#9bfae0;
+}
+
+.frases3{
+	background-color:#feeeb8;
+}
+
+.frases4
+
+{
+	background-color:#edb8fa;
+}
+.curiosidades5 img{
+	width:170px;
+	height:147px;
+}
+.movie-product{
+	width:100px;
+}
+/*confgs de titulo, imagem e preço*/
+
+.product-title {
+  font-size: 18px;
+  margin-bottom: 6px;
+  font-family: 'Mooli', sans-serif;
+}
+
+.product-image {
+  width: 100px; /* Flex wrap coloca 2 posters por linha, pq a seção tem 600px */
+  height: 120px;
+}
+
+.product-image1 {
+  width: 130px; /* Flex wrap coloca 2 posters por linha, pq a seção tem 600px */
+  height: 150px;
+}
+
+.product-price-container {
+  margin-top: 4px;
+  width: 100%;
+  flex-wrap;wrap;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product-price {
+  margin-right: 12px;
+  margin-top: 5px;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size:16px;
+}
+
+.img-mini img{
+	height:77px;
+}
+
+.img-mini2 img{
+	height:65px;
+}
+
+ a {
+            text-decoration: none;
+            color:black;
+        }
+        
+        
+
+strong{
+	text-align-center;
+	}
+
+/*Add ao carrinho*/
+
+.button-hover-background{
+	font-size:12px;
+	margin-top: 2px;
+	align-items:center;
+	padding-bottom:2px;
+	
+	
+}
+.button-hover-background {
+ width:200px;
+ height:50px;
+  font-family: 'Mooli', sans-serif;
+  background: #white;
+  color: black;
+  border: 2px solid #77767b;
+  border-radius: 6px;
+  margin-right:4px;
+  padding: 4px;
+  font-weight: bold;
+
+  transition: 0.2s;
+}
+
+.button-hover-background:hover {
+  background: transparent;
+  color: var(--red);
+}
+
+/* tabela carrinho de compras */
+.cart-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin:7px;
+  font-family: 'Mooli', sans-serif;
+}
+
+.table-head-item {
+  text-align: center;
+  border-bottom: 1px solid black;
+  padding-bottom: 6px;
+  text-transform: uppercase;
+  
+}
+
+.table-head-item-first-col {
+  width: 25%;
+}
+
+.table-head-item-second-col{
+	width:4%;
+}
+.table-head-item-third-col{
+	width:19%;
+	padding:0;
+	margin-left:10px;
+}
+.product-identification td {
+  padding: 8px;
+  margin-right:5px;
+}
+
+.cart-product tr {
+  width: 100%;
+}
+.product-identification {
+  display: flex;
+  align-items: center;
+  margin-left:130px;
+}
+
+.cart-product-image{
+  width: 100px;
+  height: 70px;
+ 
+ 
+}
+.cart-product img{
+	 margin-left:40px;
+	 
+}
+.cart-product-title {
+  margin-left: 16px;
+  font-size: 18px;
+  margin-right:80px;
+}
+
+.cart-product-price {
+  font-family: "Raleway", sans-serif;
+  margin-right:10px;
+  margin-left:26px;
+ 
+}
+
+.product-qtd-input {
+  width: 48px;
+  height: 34px;
+  border-radius: 6px;
+  border: 2px solid var(--blue);
+  text-align: center;
+  background: #eee;
+  margin-left:30px;
+  margin-right:5px;
+  
+}
+
+.remove-product-button {
+  margin-left: 10px;
+  margin-bottom:10px;
+  background: #ff0000;
+  color: var(--white);
+  padding: 10px 8px;
+  border: 0;
+  border-radius: 6px;
+  transition: filter 0.2s;
+}
+
+/*Botão remover*/
+.remove-product-button:hover {
+  filter: brightness(0.8);
+}
+
+.cart-total-container {
+  border-top: 1px solid var(--gray);
+  text-align: end;
+  padding: 6px 16px 0 0;
+  font-size: 18px;
+}
+
+.cart-total-container strong {
+  margin-right: ;
+}
+
+.purchase-button {
+  display: flex;
+  margin: 24px auto 0;
+  background: var(--blue);
+  color: #63452c;
+  border: 2;
+  border-radius: 6px;
+  border-color:orange;
+  padding: 16px 20px;
+  font-size: 15px;
+  font-weight: bold;
+	font-family: 'Mooli', sans-serif;
+  transition: filter 0.2s;
+}
+
+.purchase-button:hover {
+  filter: brightness(0.8);
+}
+
+.main-footer
+{
+	background-color: #333; /* Cor de fundo */
+            color: #fff; /* Cor do texto */
+            text-align: center; /* Alinhar o texto ao centro */
+            padding: 15px; /* Espaçamento interno */
+            margin-top:10px;
+        }
+}
+        /* Estilize o link do autor */
+.main-footer a {
+            color: #fff; /* Cor do link no rodapé */
+            text-decoration: underline; /* Sublinhar o link no hover */
+}
+/* media query*/
+@media (max-width: 584px) {
+  .movie-title-large {
+    font-size: 36px;
+  }
+
+  .schedule-item {
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  .schedule-item + .schedule-item {
+    margin-top: 12px;
+  }
+
+  .show-date,
+  .show-place {
+    width: 32%;
+    padding: 4px;
+  }
+
+  .show-city {
+    width: 33%;
+    padding: 4px;
+  }
+
+  .buy-ticket-button {
+    width: 60%;
+    margin-top: 12px;
+    padding: 12px 2px;
+  }
+
+
+  .products-container {
+    justify-content: center;
+  }
+
+  .product-identification {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .cart-product-title {
+    margin-top: 6px;
+  }
+
+  .product-qtd-input {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .remove-product-button {
+    display: block;
+    margin: 8px auto 0;
+  }
+}
+
